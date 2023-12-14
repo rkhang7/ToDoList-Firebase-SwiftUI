@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C5D82542B29494C00F27BF4 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D82532B29494C00F27BF4 /* TLButton.swift */; };
+		0C7671B12B2ABC8A00D9663E /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7671B02B2ABC8900D9663E /* Extentions.swift */; };
 		0C9CE61D2B27FD920053669D /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9CE61C2B27FD920053669D /* ToDoListApp.swift */; };
 		0C9CE61F2B27FD920053669D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9CE61E2B27FD920053669D /* MainView.swift */; };
 		0C9CE6212B27FD930053669D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9CE6202B27FD930053669D /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0C5D82532B29494C00F27BF4 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		0C7671B02B2ABC8900D9663E /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		0C9CE6192B27FD920053669D /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9CE61C2B27FD920053669D /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		0C9CE61E2B27FD920053669D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				0C9CE6202B27FD930053669D /* Assets.xcassets */,
 				0C9CE61C2B27FD920053669D /* ToDoListApp.swift */,
 				0C9CE6312B2801AF0053669D /* GoogleService-Info.plist */,
+				0C7671B02B2ABC8900D9663E /* Extentions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				0C9CE6382B2812D70053669D /* ProfileView.swift in Sources */,
 				0C9CE6442B2814AB0053669D /* User.swift in Sources */,
 				0C9CE6422B2814650053669D /* ToDoListItemView.swift in Sources */,
+				0C7671B12B2ABC8A00D9663E /* Extentions.swift in Sources */,
 				0C9CE64C2B28161D0053669D /* ToDoListViewViewModel.swift in Sources */,
 				0C9CE6502B2816520053669D /* LoginViewViewModel.swift in Sources */,
 				0C9CE61D2B27FD920053669D /* ToDoListApp.swift in Sources */,
