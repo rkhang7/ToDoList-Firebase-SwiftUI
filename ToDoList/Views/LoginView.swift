@@ -17,15 +17,19 @@ struct LoginView: View {
                 // Header
                 HeaderView(titile: "To Do List", subTitle: "Get things done", angle: 15, background: .pink)
                 
-                // Login Form
+              
+                
                 Form{
+                    if !viewModel.errorMessage.isEmpty{
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(.red)
+                    }
                     TextField("Email Address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
-                    TextField("Password", text: $viewModel.passwordk)
+                    SecureField("Password", text: $viewModel.password)
                         .textFieldStyle(DefaultTextFieldStyle())
-                    
                     TLButton(titile: "Log in", background: .blue, action: {
-                        
+                        viewModel.login()
                     })
                     
                 }
